@@ -1,0 +1,23 @@
+{
+    "name": "car_01",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "mbit": "github:lzty634158/yahboom_mbit_tr#0f4f3ff0c5846c249980ef361e0842707c7561ca",
+        "mk002": "github:mk0427/mk002#master"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
